@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.lantern {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#coin {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#ox {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
