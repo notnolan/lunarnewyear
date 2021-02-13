@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(14, 13, 17);
 }
 
 .lantern {
@@ -8,17 +8,33 @@ body {
     width: 150px;
 }
 
-#lantern2{
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+#lantern1 {
+    width: 4in;
+    height: 4in;
+}
+
+#lantern2 {
     opacity: 0.5;
+    width: 3in;
+    height: 3in;
 }
 
 #lantern3 {
     opacity: 0.25;
+    width: 2in;
+    height: 2in;
 }
 
 .floating {   
     animation-name: floating; 
-    animation-duration: 3s; 
+    animation-duration: 6s; 
     animation-iteration-count: infinite; 
     animation-timing-function: ease-in-out; 
     margin-left: 30px; 
@@ -45,4 +61,11 @@ body {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+}
 }
